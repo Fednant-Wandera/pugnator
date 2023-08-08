@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<content= "width=device-width, initial-scale=1.0">
+<head> 
+    <meta charset= "utf-8">
+     <title>booking form</title>
+
+   <style>
+   @import url(style.css);
+</style>
+          
+</head>
+        
+<body>
+    
+    <div class="background-1">
+      <div  class= "head-2">
+        <h1>Tiny tickets </h1>
+        </div>
+    </br>
+     <form action="/ttsbookings.php" method="POST">
+         <fieldset>
+      <legend><big>Tiny Travelling Sacco</big></legend>
+    <p>Karibuni nyote Katika kituo bora cha usafiri Tiny Travelling Sacco <i><b>TTS</i></b></p>
+    Proceed with Booking:<progress max="100" id="proceed">0</progress>
+    <ul>
+    <li><label for="Fname">Firstname:</label>
+    <input type="text" name="Fname" id="first"></li></br>
+
+    <li><label for="Lname">Lastname:</label>
+    <input type="text" name="Lname" id="last"></li></br>
+
+    <li><label for="Gender">Gender:</label>
+    <input type="text" list="gender" name="Gender" id="Gender"></li></br>
+
+
+    <datalist id="gender">
+    <option value="Male">
+    <option value="Female">
+    </datalist>
+
+    <datalist id="bus">
+    <option value="Bus A">
+    <option value="Bus B">
+    </datalist>
+
+    <datalist id="route">
+    <option value="Nairobi">
+    <option value="Kisumu">
+    <option value="Busia">
+    <option value="Bungoma">
+    </datalist>
+
+
+
+    <ul>
+
+    </br>
+    <li><label for="Traveldate"> Travel Date:</label>
+    <input type= "date" name="Traveldate">
+    </br>
+    </br>
+
+    <li><label for Travelroute="From">From:</label>
+    <input type="text" name= "routeID" list="route" id="routeID"></li></br>
+
+    <li><label for Travelroute="To">To:</label>
+    <input type="text" name= "routeID" list="route" id="routeID"></li></br>
+
+    <label>No of tickets <input type="number" name= "No of tickets" min="1" max="61" ><label>
+    </ul>
+
+
+
+    <center><input type="submit" value="Submit"></center></br>
+
+    </fieldset>
+</br>
+<footer>
+Thank you for choosing Tinys.   we are greatful to serve you.
+</footer>
+    </form>
+  
+    </br>
+</div>
+    </body>
+
+</html>
+</content>

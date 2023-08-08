@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+<meta charset= "utf-8">
+      <title>Wandera.blog</title>
+
+
+	<style>
+
+
+
+	</style>
+
+
+  </head>
+   <body>
+<br><i><u><h1>TINY TRAVELLING SACCO  (TTS)</i></u></h1></br>
+<time>1/6/2023 </time>
+
+
+<article>
+
+  <header>
+<h3>World War II as A Race War</h3>
+  </header>
+
+	<p>The Asia-Pacific War, a theater of World War II, can indeed be 	characterized as a "race war" due 
+	to the prominent role that race played in shaping the conflict. Examining 	the race propaganda on 
+	each side provides insights into how it influenced the nature of the war. 	While focusing on two 
+	aspects of race propaganda on each side, this response will also incorporate 	relevant information 
+	from the course material to evaluate <i>John Dower's </i>contention.</p>
+	<p>On the side of the Japanese, race propaganda played a significant role in 	shaping their 
+	perspective and actions during the war. One aspect of Japanese race 	propaganda was the notion 
+	of the "Greater East Asia Co-Prosperity Sphere," which aimed to create a 	self-sufficient and 
+	racially homogeneous bloc under Japanese hegemony. The idea of racial 	superiority and the 
+	liberation of Asians from Western imperialism were emphasized. This 	propaganda justified 
+	Japan's aggressive expansion in Asia and portrayed its actions as a noble 	mission to unite and uplift the Asian people. <em>(Dower 45)</em></p>
+
+<a href="sublinks/first.html" target= "media">mwoda...</a><br>
+
+
+</article>
+
+<div id= "freelance1">
+	<img src= "pics/freelance.jpg"  width= "400" alt="Freelance image"></br>
+	<imgfooter><i>freelance image </i></imgfooter></br>
+	<img src= "pics/ww.jpg" height="400" alt= "jnr photo"></br>
+	<imgfooter>@dominic pugnator</imgfooter></br></br></br>
+
+
+<table>
+ <tr>
+	<th>Vehicle</th>
+	<th>No.plate</th>
+	<th> Arrival</th>
+	<th> Departure Time</th>
+	
+	<th>From</th>
+	<th>To</th>
+	<th>Via</th>
+	<th>Max Sitting capacity</th>
+	<th>Available Sits</th>
+
+	<th>Book ticket</th>
+ </tr>
+
+ <tr>
+  <td>Tiny A  </td>
+  <td>KCY 330V </td>
+  <td> 7:15 PM</td>
+  <td> 8:00 PM</td>  
+  <td>Nairobi</td>
+  <td>Busia</td>
+  <td>Kisumu</td>
+  <td>61</td>
+  <td>system under development</td>
+<td><i><em>Please Wait System Is under Development</i></em></td>
+ </tr>
+  <tr>
+  <td> Tiny B</td>
+  <td>KBV 430Y</td>
+  <td> 10:00 PM</td>
+  <td> 10:22 PM</td>
+  <td>Nairobi</td>
+  <td>Bungoma</td>
+  <td>Kakamega</td>
+  <td>61</td>
+  <td>system under development</td>
+  <td>system under development</td>
+ 
+</table>
+</br>
+
+<table>
+
+</tr>
+</table>
+</br></br>
+<table>
+<tr>
+<caption></b> Vehicle </caption>
+<th scope="row">Vehicle</th>
+   <td>Driver Allocated</td>
+   <td>Fuel status</td>
+   <td>Repair Status</td>
+</tr>
+<tr>
+   <th scope="row">Tiny A</th>
+   <td>Daisy Moraa</td>
+   <td>Full tank</td>
+   <td>Fully Serviced</td>
+
+</tr>
+<tr>
+   <th scope= "row"> Tiny B</th>
+   <td>Harrey </td>
+   <td>half tank</td>
+   <td>Only brake services</td>
+
+</tr>
+</table>
+
+</img></br>
+
+<h2>Booking Form </h2>
+<form action="/mailinglist.php" method="POST">
+ <fieldset>
+  <legend><big>Tiny Travelling Sacco</big></legend>
+<p>Karibuni nyote Katika kituo bora cha usafiri Tiny Travelling Sacco <i><b>TTS</i></b></p>
+Proceed with Booking:<progress max="100" id="proceed">0</progress>
+<ul>
+<li><label for="Fname">Firstname:</label>
+<input type="text" name="Fname" id="first"></li></br>
+
+<li><label for="Lname">Lastname:</label>
+<input type="text" name="Lname" id="last"></li></br>
+
+<li><label for="Gender">Gender:</label>
+<input type="text" list="gender" name="Gender" id="Gender"></li></br>
+
+
+<datalist id="gender">
+<option value="Male">
+<option value="Female">
+</datalist>
+
+<datalist id="bus">
+<option value="Bus A">
+<option value="Bus B">
+</datalist>
+
+<datalist id="route">
+<option value="Nairobi">
+<option value="Kisumu">
+<option value="Busia">
+<option value="Bungoma">
+</datalist>
+
+
+
+<ul>
+
+</br>
+<li><label for="Traveldate"> Travel Date:</label>
+<input type= "date" name="Traveldate">
+</br>
+</br>
+
+<li><label for Travelroute="From">From:</label>
+<input type="text" name= "routeID" list="route" id="routeID"></li></br>
+
+<li><label for Travelroute="To">To:</label>
+<input type="text" name= "routeID" list="route" id="routeID"></li></br>
+
+<label>No of tickets <input type="number" name= "No of tickets" min="1" max="61" ><label>
+</ul>
+
+
+
+<center><input type="submit" value="Submit"></center>
+
+</fieldset>
+</form>
+</br>
+</br>
+
+<h2><b> Drivers Application Site</b></h2>
+<form>
+<fieldset>
+<legend><Big><u><center>Tiny Drivers Sacco</center></u></Big></legend>
+<p>Karibu!!!! Wasilisha pendekezo lako la kazi</p>
+
+Apply for a job:<progress max="100" id="proceed">0</progress>
+<ul>
+<li><label for="Fname">Firstname:</label>
+<input type="text" name="Fname" id="first"></li></br>
+
+<li><label for="Lname">Lastname:</label>
+<input type="text" name="Lname" id="last"></li></br>
+
+<li><label for="Gender">Gender:</label>
+<input type="text" list="gender" name="Gender" id="Gender"></li></br>
+
+
+</br></br>
+<label> Attach your CV: </br></br>
+<input type="file" name="pic"></label>
+
+<center><input type="submit" value="Submit your application"></center>
+<center><i>Beware before securing a job there will be a practical interview</i></center>
+</fieldset>
+</form>
+</br></br>
+
+
+<video>
+<a href="video\tkd.mp4">Mp4 Video</a> 
+</video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----<h7><start>DOB: 5/9/2003</h7></start>
+</br>
+<ol>
+	<li>Munyanja Primary</li>
+	<li>Sidonge Primary</li>
+	<li>Mukonjo Primary</li>
+	<li>Moody Awori Primary</li>
+	<li>St. Peter's Seminary Mukumu</li>
+	<li>Friends school Bokoli</li>
+	<li>Embu University</li>
+<center><bottom><button class="Button" >Call feddy...</button></center></bottom>
+
+
+<H3><center>Join BTCM</center></h3>
+
+<br><center><button class="Enter your name" > Enter your name</button></center></br>
+<center><button><buttonclass="Button" >Enter your phone number</button></center></button>
+
+<h7><marque><start><bottom><h7><marque><start><bottom>
+
+
+<a href="http://www.fblogin.com">  Wandera's facebook link.</a></br>
+<a href="http://www.instagram.com">  Wandera's instagram link.</a></br>
+<a href="http://www.youtube.com">  Wandera's youtube channel link.</a></br>
+<a href="http://www.telegram.com">  Wandera's telegram channel.</a></br>
+<a href="http://www.linked in.com">  Wandera's linked in link.</a></br>
+<a href="http://www.embuni.com">  Wandera's embuni elearning.</a></br>
+
+
+</footer>
+</div>
+
+</body>
+</html>
+
+
+
+	<h4>Contacts details</h4>
+	<ul>
+			<a href="mailto:wanantmas1@gmail.com">Feddy gmail</a>
+			<li>wanantmas1@gmail.com</li>
+			<li>fedddywandera@yahoo.com</li>
+			<li>wanderajun16@gmail.com</li>
+			<li>0799485344</li>
+			<li>0795650863</li>
+	</ul>
+
+
+</ol>
+--->

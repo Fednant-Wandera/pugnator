@@ -1,0 +1,281 @@
+td, th {
+border: 2px solid red;
+  }
+
+h2{
+font-family:cursive;
+    
+}
+
+}
+p { 
+ font-size: medium; 
+ font-family: sans-serif; 
+}
+a { text-decoration: none; } /* turns underlines off for all links */
+a:link { color: maroon; }
+a:visited { color: gray; }
+a:focus { color: maroon; background-color: deeppink; }
+a:hover { color: maroon; background-color: white; }
+a:active { color: red; background-color: #ffd9d9; }*/
+
+//pseudo
+p::first-line { letter-spacing: 4px; }
+p::first-letter { font-size: 150%; color: blue; }
+
+form{ 
+ background-image: url(wanderalogo.png);
+ background-repeat: no-repeat;
+ background-color: azure;
+background-position: center 50px;
+object-position: center;
+    padding-top: 50 px;
+    
+
+}
+body{
+background-color:cyan;
+    background-repeat:repeat;
+    background-position:top-left;
+  border-radius: 100%;
+     background-image: url(pics/seats.jpeg);
+       background-blend-mode:soft-light;
+   
+} 
+
+body img
+{
+position:relative;
+     border-radius: 100%;
+    height: 100px;
+    width:100px;
+    float:center;
+    
+}
+
+
+nav ul {
+    
+    list-style-type: none;
+    margin:50;
+        padding:center;
+    background-color: whitesmoke;
+    background-size:200px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+    text-decoration-style: wavy;
+}
+
+nav li a{
+    display:block;
+        padding:100 px;
+    text-decoration-color:chocolate;
+ text
+}
+
+nav li a"hover"{
+background-color:deepskyblue;
+}
+footer{
+    background-color:darkgray;
+    object-position: bottom;
+    column-count:0 ;
+    background-image: url(wanderalogo.png);
+   background-position: center 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   }
+footer img{
+    padding-left: 5px;
+    height: 200px;
+    width: 200px;
+    float:none;
+    list-style-position: inside;
+    height: 150px;
+    width:150px;
+    
+}
+footer a{
+  color:whitesmoke;
+    text-decoration:none;
+    scroll-behavior: smooth;
+    
+}
+h4{
+    
+    color:floralwhite;
+     color: orangered;
+}
+
+.header{
+    background-image: url(pics/seats.jpeg);
+    background-color: bisque;
+   background-blend-mode: screen;
+}
+.transition-bg{
+padding-top: 5px;
+    width:100%;
+    height:100%;
+    animation: transitionBackground 10s infinite;
+}
+@keyframes transitionBackground {
+    0%{
+        background: linear-gradient(t0 right, black, green);
+        
+    }
+    
+    50% {
+        background:  linear-gradient(to right, yellow, #ff00cc);
+        
+    }
+    100%{
+        background: linear-gradient(to right,pink , yellow);
+    }
+}
+
+.background-1 {padding-top: 5px;
+    width:100%;
+    height:100%;
+    animation: transitionBackground 10s infinite;
+}
+.background-2 {
+   padding-top: 5px;
+    width:100%;
+    height:100%;
+    animation: transitionBackground 10s infinite;
+}
+
+.background-3{
+padding-top: 5px;
+    width:100%;
+    height:100%;
+    animation: transitionBackground 10s infinite;
+}
+
+@keyframes {
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+ 
+.head-1{
+    color:blue;
+    font-size: 18px;
+    text-align:center;
+    background: linear-gradient(180deg, #4CAF50, #45A049);
+    box-shadow: 1px 3px 5px rgba(0,0,0.5,0.5);
+    padding:20px;
+    border-radius:25px;
+    color:whitesmoke;
+}
+.head-2{
+    color:blue;
+    font-size: 18px;
+    text-align:center;
+    background: linear-gradient(100deg, #4CAF50, #45A049);
+    box-shadow: 1.5px 3px 6px rgba(0,0,0,0.25);
+    padding:5px;
+    border-radius:25px;
+    color:whitesmoke;
+}
+
+video{
+    width: 250px;
+    height: 200px;
+    }
+.tkd img{
+    border-style:solid;
+    border-radius: 0%;
+    height:150px;
+    width:150px; 
+    border-color: darkgoldenrod;
+    border-width: 10px;
+}
+
+.tkd imgfooter{
+    color:blueviolet;
+    object-position
+}
+.tkdfoot {
+    background-color:palegreen;
+    object-position: bottom;
+}
+.col1{
+    display: inline-block;
+    height:250px;
+    width:50%;
+    padding-bottom:0px;
+    background-color:mintcream;
+    border-radius: 0%;
+    float: left;
+    width: 50%;
+    
+}
+.col2vid{
+     display: inline-block;
+    height:250px;
+    width:50%;
+    padding-bottom:0px;
+    background-color:cornflowerblue;
+    border-radius: 0%;
+    float: right;
+    width: 50%;
+    border-radius:0;
+    
+}
+.col2vid video{
+    object-fit:cover;
+    width:100%;
+        height:100%;
+    border-radius: 0%;
+}
+
+container, logo1{
+    display: inline-block;
+    width:50%;
+    border:none;
+    background-blend-mode: screen;
+    
+}
+    .tkdvids2 { 
+    background-color:dimgrey;
+        width:100%;
+        z-index: 0; 
+    }
+.logo1a, .logo1b, .foota{
+    display: inline-block;
+   }
+.Downloadings button{
+    
+}
+button{
+    display: inlin-block;
+    padding:10px 20px;
+    font-size:16px;
+    text-align:center;
+    background-color: #007bff;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    
+}
+@media(max-width:767px){
+    button, .foota,head-1{
+        display:block;
+        width:100%;
+        margin-bottom:10px;
+        
+        
+            }
+        
+}
