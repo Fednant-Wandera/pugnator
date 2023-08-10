@@ -111,7 +111,7 @@ h4{
 }
 
 .header{
-    background-image: url(pics/seats.jpeg);
+    background-image: url(seats.jpeg);
     background-color: bisque;
    background-blend-mode: screen;
 }
