@@ -1,1 +1,1 @@
-# Fednant-Omaso-Wandera.blog
+Feddy magistra 😜
