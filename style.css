@@ -281,19 +281,3 @@ button{
             }
         
 }
-.container2{
-  padding-left:50%;
-  display:inline-block;
-    background-color:gold;
-}
-.container2 img{
-    display: inline-block;
-    height:250px;
-    width:50%;
-    padding-bottom:0px;
-    background-color:mintcream;
-    border-radius: 0%;
-    float: left;
-    width: 50%;
-  }
-}
