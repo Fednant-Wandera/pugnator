@@ -282,11 +282,9 @@ button{
         
 }
 .container2{
-width: 50%;
   padding-left:50%;
   display:inline-block;
-  float: right;
-  background-color:gold;
+    background-color:gold;
 }
 .container2 img{
 width: 50px;
