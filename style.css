@@ -38,7 +38,7 @@ background-color:cyan;
     background-repeat:repeat;
     background-position:top-left;
   border-radius: 100%;
-     background-image: url(pics/seats.jpeg);
+     background-image: url(seats.jpeg);
        background-blend-mode:soft-light;
    
 } 
@@ -283,6 +283,7 @@ button{
 width: 50%;
   padding-left:50%;
   display:inline-block;
+  float: right;
 }
 .container2 img{
 width: 50px;
