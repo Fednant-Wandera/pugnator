@@ -39,7 +39,7 @@ background-color:cyan;
     background-position:top-left;
   border-radius: 100%;
      background-image: url(seats.jpeg);
-       background-blend-mode:soft-light;
+       background-blend-mode: screen;
    
 } 
 
